@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#3F51"
+    tools:context="com.example.android.nunasmarketplace.MainActivity">
+
+
+    <ImageView
+        android:src="@drawable/fresh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/fresh_vegetables" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nuna_s_market_place"
+        android:layout_gravity="center"
+        android:textSize="30sp"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/grocery_delivery"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:paddingBottom="18dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_1576_spintex_road_accra_ghana"
+        android:layout_gravity="center"
+        android:textSize="22sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_233_783_5974"
+        android:layout_gravity="center"
+        android:textSize="22sp"
+        android:autoLink="phone" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="22sp"
+        android:text="@string/www_nunasmart_com"
+        android:autoLink="web"/>
+
+
+
+</android.widget.LinearLayout>
